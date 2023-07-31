@@ -2,4 +2,4 @@
 set -e
 
 # Add the line "ControlPort 9051" to /etc/tor/torrc
-echo "ControlPort 9051" | tee -a /etc/tor/torrc
+echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
