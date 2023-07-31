@@ -1,5 +1,15 @@
 #!/bin/bash
-set -e
 
-# Add the line "ControlPort 9051" to /etc/tor/torrc
-echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
+# Install Tor
+apt-get update
+apt-get install -y tor
+
+# Create a custom Tor configuration directory
+mkdir -p /home/jovyan/.tor
+
+# Copy the custom configuration file to the user directory
+cp torrc_custom /home/jovyan/.tor/torrc
+
+# Set proper ownership and permissions on the custom configuration file
+chown jovyan:jovyan /home/jovyan/.tor/torrc
+chmod 600 /home/jovyan/.tor/torrc
