@@ -1,12 +1,4 @@
 #!/bin/bash
 
 
-# Create a custom Tor configuration directory
-mkdir -p /home/jovyan/.tor
 
-# Copy the custom configuration file to the user directory
-cp binder/torrc_custom /home/jovyan/.tor/torrc
-
-# Set proper ownership and permissions on the custom configuration file
-chown jovyan:jovyan /home/jovyan/.tor/torrc
-chmod 600 /home/jovyan/.tor/torrc
