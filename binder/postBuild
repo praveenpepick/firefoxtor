@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Install Tor
-apt-get update
-apt-get install -y tor
 
 # Create a custom Tor configuration directory
 mkdir -p /home/jovyan/.tor
