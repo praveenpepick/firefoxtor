@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
-sudo service tor start
+echo "ControlPort 9051" | tee -a /etc/tor/torrc
+
