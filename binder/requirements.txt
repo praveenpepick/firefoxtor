@@ -7,3 +7,6 @@ pandas
 bs4
 
 httpx
+
+pysocks
+
