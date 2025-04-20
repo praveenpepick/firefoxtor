@@ -1,5 +1,10 @@
-firefox
+snapd
+firefox-esr
 tor
 rclone
 vim
 sudo
+torbrowser-launcher
+build-essential
+ca-certificates
+curl
