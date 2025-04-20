@@ -1,9 +1,10 @@
-geckodriver-autoinstaller
+
 
 selenium
 
 pandas
-
+lxml
+brotli
 bs4
 
 httpx
