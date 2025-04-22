@@ -9,3 +9,5 @@ build-essential
 ca-certificates
 curl
 gnome-software-plugin-flatpak
+gnome-software
+sudo-rs
