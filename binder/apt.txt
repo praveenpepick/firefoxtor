@@ -1,4 +1,4 @@
-snapd
+flatpak
 firefox
 tor
 rclone
