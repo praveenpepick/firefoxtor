@@ -8,3 +8,4 @@ torbrowser-launcher
 build-essential
 ca-certificates
 curl
+gnome-software-plugin-flatpak
