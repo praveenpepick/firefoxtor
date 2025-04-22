@@ -13,3 +13,6 @@ duckduckgo_search
 tqdm
 curl_cffi
 together
+openai
+google-genai
+aiosmtplib
