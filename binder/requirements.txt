@@ -16,3 +16,6 @@ together
 openai
 google-genai
 aiosmtplib
+playwright
+python-cronet
+nest-asyncio
