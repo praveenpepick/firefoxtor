@@ -8,8 +8,5 @@ xvfb
 build-essential
 ca-certificates
 curl
-gnome-software-plugin-flatpak
-libasound2
-libatk-bridge
-libcups2
 ffmpeg
+snapd
